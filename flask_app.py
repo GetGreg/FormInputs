@@ -1,6 +1,8 @@
 from flask import Flask, request, render_template
 app = Flask(__name__)
 
+#This form will be about what type of person you are.
+#It will ask about what type of things you like to do and things that you hate.
 @app.route('/', methods=['GET'])
 def main():
     # found in ../templates/
